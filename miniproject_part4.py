@@ -48,7 +48,7 @@ def get_model_id_gdrive(model_type):
         embeddings_id = "1-RXcfBvWyE-Av3ZHLcyJVsps0RYRRr_2"
     elif model_type == "50d":
         #embeddings_id = "1DBaVpJsitQ1qxtUvV1Kz7ThDc3az16kZ"
-        embeddings_id = "1kNbE4RIDW9vDuw8In1rDP7Zk3FSJI"
+        embeddings_id = "1QlsTDwI-vl0IQrleaEgHSxYvnmB2"
         word_index_id = "1rB4ksHyHZ9skes-fJHMa2Z8J1Qa7awQ9"
     elif model_type == "100d":
         word_index_id = "1-oWV0LqG3fmrozRZ7WB1jzeTJHRUI3mq"
