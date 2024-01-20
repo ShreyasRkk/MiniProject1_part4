@@ -1,0 +1,5 @@
+gdown
+matplotlib
+sentence-transformers
+numpy
+datasets
