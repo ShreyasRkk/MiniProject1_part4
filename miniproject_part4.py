@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1YwBemz4oe7AgzOqFK4Qeziv9BSSOB0mE
 """
 
-
+#ok
 import streamlit as st
 import numpy as np
 import numpy.linalg as la
