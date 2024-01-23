@@ -178,7 +178,7 @@ def update_category_embeddings(embedings_metadata):
     get_category_embeddings(embeddings_metadata)
 
 
-def get_sorted_cosine_similarity(embeddings_metadata, input_text):
+def get_sorted_cosine_similarity( input_text, embeddings_metadata):
     """
     Get sorted cosine similarity between input sentence and categories
     Steps:
