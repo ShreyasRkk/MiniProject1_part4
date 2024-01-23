@@ -432,6 +432,5 @@ if st.session_state.text_search:
     # "distilbert_512": sorted_distilbert})
 
     st.write("")
-    st.write(
-        "Demo developed by [Dr. Karthik Mohan](https://www.linkedin.com/in/karthik-mohan-72a4b323/)"
-    )
+    st.write("Demo developed by:[Anusha K Prasad](https://www.linkedin.com/in/anusha-kashi-prasad/) and [Shreyas RK](https://www.linkedin.com/in/rk-shreyas/)")
+                
