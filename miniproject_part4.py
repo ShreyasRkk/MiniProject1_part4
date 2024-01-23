@@ -255,9 +255,10 @@ def plot_piechart(sorted_cosine_scores_items):
     )
     categories = st.session_state.categories.split(" ")
     categories_sorted = [
-        categories[sorted_cosine_scores_items[index][0]]
-        for index in range(len(sorted_cosine_scores_items))
-    ]
+    sorted_cosine_scores_items[index][0]
+    for index in range(len(sorted_cosine_scores_items))
+]
+
     fig, ax = plt.subplots()
     ax.pie(sorted_cosine_scores, labels=categories_sorted, autopct="%1.1f%%")
     st.pyplot(fig)  # Figure
