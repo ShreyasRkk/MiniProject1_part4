@@ -271,16 +271,15 @@ def plot_piechart_helper(sorted_cosine_scores_items):
             for index in range(len(sorted_cosine_scores_items))
         ]
     )
-    categories = st.session_state.categories.split(" ")
     categories_sorted = [
-        categories[sorted_cosine_scores_items[index][0]]
+        sorted_cosine_scores_items[index][0]
         for index in range(len(sorted_cosine_scores_items))
     ]
     fig, ax = plt.subplots(figsize=(3, 3))
     my_explode = np.zeros(len(categories_sorted))
     my_explode[0] = 0.2
     if len(categories_sorted) == 3:
-        my_explode[1] = 0.1  # explode this by 0.2
+        my_explode[1] = 0.1
     elif len(categories_sorted) > 3:
         my_explode[2] = 0.05
     ax.pie(
@@ -291,6 +290,7 @@ def plot_piechart_helper(sorted_cosine_scores_items):
     )
 
     return fig
+
 
 
 def plot_piecharts(sorted_cosine_scores_models):
